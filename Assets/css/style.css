@@ -42,11 +42,188 @@ body h1 {
     background-color: aqua;
 }
 
+.subtitle {
+    padding: 100px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 img {
     width: 200px;
     height: 300px;
+    text-align: left;
 }
+
+.cool-subtitle {
+    text-align: right;
+}
+
+.section-h2 {
+    size: 40px;
+    text-align: center;
+    width: 100px;
+}
+
 section p {
     size: 20px;
     padding: 45px;
+    ;
 }
+
+
+.know-me {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+}
+
+.my-info {
+    display: flex;
+}
+
+.website {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.main-website {
+    width: 100%;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.row-websites {
+    display: flex;
+    width: 100%;
+}
+
+.rows {
+    border: 1px solid black;
+    height: 100px;
+    width: 50%;
+}
+
+#runbuddypic {
+    background: url("../images/hero-bg.jpeg");
+    background-size: cover;
+}
+
+#coderefactorpic {
+    background: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+}
+
+
+
+/* the end of CSS Style*/
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+
+  
+    .know-me {
+      width: 80%;
+    }
+    
+    .projects {
+      flex: 0 70%;
+    }
+    
+    .my-info{
+      flex: 1 100%;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+      section {
+          padding: 30px 15px;
+        }
+      
+        .know-me {
+          flex: 1 100%;
+          text-align: center;
+        }
+      
+        .projects {
+          flex: 2 100%;
+          text-align: center;
+          justify-content: center;
+        }
+      
+        .step-img {
+          flex: 0 32%;
+          margin-right: 0;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      
+        .my-info {
+          flex: 1 100%;  
+        }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+      .hero-form button {
+          width: 100%;
+        }
+      
+        .section-title {
+          width: 95%;
+        }
+      
+        .intro p {
+          width: 100%;
+        }
+      
+        .trainer {
+          flex: 0 100%;
+        }
+      
+        .contact-info {
+          text-align: center;
+        }
+      
+        .contact-info > * {
+          flex: 0 100%;
+        }
+        .contact-form {
+          order: 3;
+        }
+  
+  }
