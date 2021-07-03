@@ -56,6 +56,7 @@ img {
     width: 200px;
     height: 300px;
     text-align: left;
+    
 }
 
 .cool-subtitle {
@@ -96,6 +97,10 @@ section p {
      border: 1px solid black;
      height: 200px;
  }
+
+ .linkimage   {
+     text-align: center;
+ }
  
  .row-websites {
      display: flex;
@@ -108,21 +113,47 @@ section p {
      width: 50%;
  }
  
- #runbuddypic {
+
+
+
+
+ /* NO REASON TO BE HERE DOWN!!!!*/
+ #runbuddypic { 
      background: url("../images/hero-bg.jpeg");
      background-size: cover;
     background-position: center;
     background-position: 80%;
     background-repeat: no-repeat;
     
+    
  }
  
  #coderefactorpic {
      background: url("../images/digital-marketing-meeting.jpg");
      background-size: cover;
-    background-position: center;
-    background-position: 80%;
+    background-position: 75% 17%;
  }
+
+ #lucassoccer {
+     background: url("../images/lucassoccer.jpg");
+     background-size: cover;
+    background-position: 75% 17%;
+ }
+
+ #waltersinging {
+     background: url("../images/WalterSinging.jpg");
+     background-size: cover;
+    background-position: 75% 35%;
+ }
+
+ #fathercubillas {
+     background: url("../images/Father&Cubillas.jpeg");
+     background-size: cover;
+    background-position: 70% 13%;
+ }
+ /* NO REASON TO BE HERE  UP!!! */
+
+
 
 
 /* SECTION MY INFO */
