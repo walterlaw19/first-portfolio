@@ -1,184 +1,189 @@
 /* HEADER */
 header {
-    padding: 20px 35px;
-    background-color: wheat;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0;;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
 
+  padding: 20px 35px;
+  background-color: #c6eae3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw; 
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* BODY */
 body {
-    background-color: rgb(218, 226, 208);
+  background-color: rgba(142,215,198, 0.7);
 }
 
 body h1 {
-    color: black;
-    background-color: aqua;
+  color:#c9868c;
 }
 
 /* SUBTITLE */
 .subtitle {
-    padding: 100px;
-    background-color: teal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 100px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 img {
-    width: 200px;
-    height: 300px;
-    text-align: left;
+  width: 200px;
+  height: 300px;
+  text-align: left;
     
 }
 
 .cool-subtitle {
-    text-align: right;
+  text-align: right;
 }
 
 /* SECTION(S)! */
 .section-h2 {
-    size: 40px;
-    text-align: center;
-    width: 100px;
+  size: 40px;
+  text-align: center;
+  width: 100px;
 }
 
 section p {
-    size: 20px;
-    padding: 45px;
-    ;
+  size: 20px;
+  padding: 45px;
 }
 
 /* SECTION KNOW ME */
 .know-me {
-    display: flex;
+  display: flex;
 }
 
 /* SECTION PROJECT */
 .projects {
-    display: flex;
+  display: flex;
+}
+
+.main-website a {
+  color: green;
+  padding: 0 10px;
+  background-color: skyblue;
 }
 
 .website {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
- }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-
+.rows a {
+  color: slateblue;
+  padding: 0 10px;
+  background: slategray;
+}
  
- .main-website {
-     width: 100%;
-     border: 1px solid black;
-     height: 200px;
- }
+.main-website {
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+}
 
 
 
- .linkimage   {
-     text-align: center;
- }
- 
- .row-websites {
-     display: flex;
-     width: 100%;
- }
- 
- .rows {
-     border: 1px solid black;
-     height: 100px;
-     width: 50%;
-     
+.linkimage   {
+  text-align: center;
  }
  
-
-
-
-
- /* NO REASON TO BE HERE DOWN!!!!*/
- #runbuddypic { 
-     background: url("../images/hero-bg.jpeg");
-     background-size: cover;
-    background-position: center;
-    background-position: 80%;
-    background-repeat: no-repeat;
-    
-    
+.row-websites {
+  display: flex;
+  width: 100%;
  }
  
- #coderefactorpic {
-     background: url("../images/digital-marketing-meeting.jpg");
-     background-size: cover;
-    background-position: 75% 17%;
- }
+.rows {
+  border: 1px solid black;
+  height: 100px;
+  width: 50%;    
+}
+ 
 
- #lucassoccer {
-     background: url("../images/lucassoccer.jpg");
-     background-size: cover;
-    background-position: 75% 17%;
- }
 
- #waltersinging {
-     background: url("../images/WalterSinging.jpg");
-     background-size: cover;
-    background-position: 75% 35%;
- }
 
- #fathercubillas {
-     background: url("../images/Father&Cubillas.jpeg");
-     background-size: cover;
-    background-position: 70% 13%;
- }
- /* NO REASON TO BE HERE  UP!!! */
+
+/* NO REASON TO BE HERE DOWN!!!!*/
+#runbuddypic { 
+  background: url("../images/hero-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-position: 80%;
+  background-repeat: no-repeat;
+}
+ 
+#coderefactorpic {
+  background: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: 75% 17%;
+}
+
+#lucassoccer {
+  background: url("../images/lucassoccer.jpg");
+  background-size: cover;
+  background-position: 75% 17%;
+}
+
+#waltersinging {
+  background: url("../images/WalterSinging.jpg");
+  background-size: cover;
+  background-position: 75% 35%;
+}
+
+#fathercubillas {
+  background: url("../images/Father&Cubillas.jpeg");
+  background-size: cover;
+  background-position: 70% 13%;
+}
+/* NO REASON TO BE HERE  UP!!! */
 
 
 
 
 /* SECTION MY INFO */
 .my-info {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
     
 }
 
 .contacts {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
     
 }
 
 .contacts div {
-    border-bottom: solid lawngreen 10px;
+  border-bottom: solid lawngreen 10px;
 }
 
 /*flex-direction: column ENTER ME IN MY INFO*/
@@ -193,12 +198,11 @@ section p {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
   
     header h1 {
       width: 100%;
@@ -297,3 +301,5 @@ section p {
         } 
   
   }
+
+
