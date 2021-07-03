@@ -172,6 +172,10 @@ section p {
     
 }
 
+.contacts div {
+    border-bottom: solid lawngreen 10px;
+}
+
 /*flex-direction: column ENTER ME IN MY INFO*/
 
 
