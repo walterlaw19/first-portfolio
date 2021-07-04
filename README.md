@@ -12,10 +12,10 @@ My Portfolio exhibits my personal and academic projects to potential employers. 
 https://walterlaw19.github.io/first-portfolio/
 
 ```
-![](readme-images/screenshot1.PNG) "Screenshot1"
-![](readme-images/screenshot2.PNG) "Screenshot2"
-![](readme-images/screenshot3.PNG) "Screenshot3"
-![](readme-images/screenshot4.PNG) "Screenshot4"
+![](Readme-images/screenshot1.PNG) "Screenshot1"
+![](Readme-images/screenshot2.PNG) "Screenshot2"
+![](Readme-images/screenshot3.PNG) "Screenshot3"
+![](Readme-images/screenshot4.PNG) "Screenshot4"
 
 ## contribution
 Made with ❤️️ by Walter G
