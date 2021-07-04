@@ -102,7 +102,7 @@ section p {
   height: 200px;
 }
 
-.main-website a {
+.main-website a, .rows a {
   color: green;
   padding: 0 10px;
   background-color: yellow;
@@ -112,12 +112,6 @@ section p {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.rows a {
-  color: green;
-  padding: 0 10px;
-  background: yellow;
 }
 
 .row-websites {
@@ -216,11 +210,6 @@ footer {
   header nav ul li a {
     font-size: 20px;
   }
-  
-  footer h4  {
-    text-align: center;
-    width: 100%;
-  }
 
   .know-me {
     width: 80%;
@@ -233,12 +222,39 @@ footer {
   .my-info{
     flex: 1 100%;
   }
+
+  footer h4  {
+    text-align: center;
+    width: 100%;
+  }
 }
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  header nav ul li a {
+    font-size: 30px;
+  }
+
   section {
     padding: 30px 15px;
+    font-size: 20px;
   }
       
   .know-me {
@@ -251,29 +267,37 @@ footer {
     text-align: center;
     justify-content: center;
   }
-      
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .main-website, .rows {
+    font-size: 25px;
+    text-align: center;
   }
-      
-  .my-info {
-    flex: 1 100%;  
+
+  .contacts {
+    font-size: 25px;
+    flex-wrap: wrap;
   }
 }
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
+  header nav ul li a {
+    font-size: 40px;
   }
 
-  .my-info {
-    flex: 1 100%;
-  } 
-  
+  .know-me p {
+    font-size: 30px;
+    flex-wrap: wrap;
+  }
+
+  .main-website, .rows {
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .contacts {
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
 }
 
 
