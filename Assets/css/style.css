@@ -1,6 +1,5 @@
 /* HEADER */
 header {
-
   padding: 20px 35px;
   background-color: #c6eae3;
   display: flex;
@@ -43,23 +42,25 @@ body h1 {
 
 /* SUBTITLE */
 .subtitle {
-  padding: 100px;
+  padding: 50px;
   background-color: teal;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 img {
   width: 200px;
   height: 300px;
-  text-align: left;
-    
+  text-align: left;   
 }
 
 .cool-subtitle {
   text-align: right;
+}
+
+.cool-subtitle h2 {
+  color: #804000;
 }
 
 /* SECTION(S)! */
@@ -67,6 +68,11 @@ img {
   size: 40px;
   text-align: center;
   width: 100px;
+  color: #575858; 
+}
+
+.section-h2 h2 {
+  border-bottom: ivory;
 }
 
 section p {
@@ -79,15 +85,27 @@ section p {
   display: flex;
 }
 
+.know-me p {
+  color: #804000;
+  font-style: italic;
+  font-size: 20px;
+}
+
 /* SECTION PROJECT */
 .projects {
   display: flex;
 }
 
+.main-website {
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+}
+
 .main-website a {
   color: green;
   padding: 0 10px;
-  background-color: skyblue;
+  background-color: yellow;
 }
 
 .website {
@@ -97,39 +115,25 @@ section p {
 }
 
 .rows a {
-  color: slateblue;
+  color: green;
   padding: 0 10px;
-  background: slategray;
-}
- 
-.main-website {
-  width: 100%;
-  border: 1px solid black;
-  height: 200px;
+  background: yellow;
 }
 
-
-
-.linkimage   {
-  text-align: center;
- }
- 
 .row-websites {
   display: flex;
   width: 100%;
- }
+}
  
 .rows {
   border: 1px solid black;
   height: 100px;
   width: 50%;    
+  color: green;
+  padding: 0 10px;
+  background: yellow;
 }
  
-
-
-
-
-/* NO REASON TO BE HERE DOWN!!!!*/
 #runbuddypic { 
   background: url("../images/hero-bg.jpeg");
   background-size: cover;
@@ -161,16 +165,11 @@ section p {
   background-size: cover;
   background-position: 70% 13%;
 }
-/* NO REASON TO BE HERE  UP!!! */
-
-
-
 
 /* SECTION MY INFO */
 .my-info {
   display: flex;
-  width: 100%;
-    
+  width: 100%;   
 }
 
 .contacts {
@@ -178,21 +177,20 @@ section p {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  flex-wrap: wrap;
-    
+  flex-wrap: wrap; 
 }
-
 .contacts div {
-  border-bottom: solid lawngreen 10px;
+  border-bottom: solid blue 5px;
+  text-align: center;
+  color: #804000;
 }
 
-/*flex-direction: column ENTER ME IN MY INFO*/
-
-
-
-
+footer {
+  text-align: center
+}
 
 /* the end of CSS Style*/
+
 
 
 
@@ -204,102 +202,78 @@ section p {
     position: relative;
   }
   
-    header h1 {
-      width: 100%;
-      text-align: center;
-    }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
   
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
   
-    header nav ul li a {
-      font-size: 20px;
-    }
+  header nav ul li a {
+    font-size: 20px;
+  }
   
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
+  footer h4  {
+    text-align: center;
+    width: 100%;
+  }
 
-  
-    .know-me {
-      width: 80%;
-    }
-    
-    .projects {
-      flex: 0 70%;
-    }
-    
-    .my-info{
-      flex: 1 100%;
-    }
+  .know-me {
+    width: 80%;
   }
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-      section {
-          padding: 30px 15px;
-        }
-      
-        .know-me {
-          flex: 1 100%;
-          text-align: center;
-        }
-      
-        .projects {
-          flex: 2 100%;
-          text-align: center;
-          justify-content: center;
-        }
-      
-        .step-img {
-          flex: 0 32%;
-          margin-right: 0;
-          margin-top: 15px;
-          margin-bottom: 15px;
-        }
-      
-        .my-info {
-          flex: 1 100%;  
-        }
+    
+  .projects {
+    flex: 0 70%;
   }
+    
+  .my-info{
+    flex: 1 100%;
+  }
+}
   
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-      .hero-form button {
-          width: 100%;
-        }
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
       
-        .section-title {
-          width: 95%;
-        }
+  .know-me {
+    flex: 1 100%;
+    text-align: center;
+  }
       
-        .intro p {
-          width: 100%;
-        }
+  .projects {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
       
-        .trainer {
-          flex: 0 100%;
-        }
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
       
-        .contact-info {
-          text-align: center;
-        }
-      
-        .contact-info > * {
-          flex: 0 100%;
-        }
-        .contact-form {
-          order: 3;
-        }
+  .my-info {
+    flex: 1 100%;  
+  }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
 
-        .my-info {
-            flex: 1 100%;
-        } 
+  .my-info {
+    flex: 1 100%;
+  } 
   
-  }
+}
 
 
