@@ -191,6 +191,13 @@ section p {
   background-repeat: no-repeat;
 }
 
+#dream-home {
+  background: url("../images/dream-home.PNG");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 
 
 
